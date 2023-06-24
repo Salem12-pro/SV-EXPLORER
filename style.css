@@ -1,0 +1,170 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  scroll-behavior:smooth ;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+.exdiv1 {
+  display: flex;
+}
+
+.exdiv2 {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.471);
+  padding-left: 30px;
+  color: white;
+  width: 100%;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 100px;
+}
+
+.hero {
+  background: url(./images/Ireland\ Travel.jpeg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.exleftdiv {
+  width: 50%;
+}
+
+.exrightdiv {
+  width: 50%;
+  padding-right: 300px;
+}
+
+h5 {
+  color: white;
+  font-size: 20px;
+}
+
+.ex {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+button {
+  background: tomato;
+  color: #ffffff;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.hero {
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* section three starts here  */
+.row1 {
+  height: 100%;
+  width: 25%;
+}
+
+.row1col1 {
+  width: auto;
+  height: 40%;
+  background: tomato;
+  border-radius: 20px;
+  padding: 5px 30px;
+  margin: 35px 25px;
+}
+
+.row1col1 h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row1col1 button {
+  background: #ffffff;
+  color: tomato;
+  padding: 10px 20px;
+}
+
+.row1col2 {
+  width: auto;
+  height: 40%;
+  background: tomato;
+  border-radius: 20px;
+  padding: 5px 30px 30px 30px;
+  margin: 35px 25px;
+}
+
+.row1col2 {
+  color: white;
+  font-size: 30px;
+}
+
+.row1col2 p {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.container P {
+  color: #ffffff;
+  font-size: 15px;
+}
+/* section three starts header */
+/* section four setarts here */
+.sec4{
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: tomato;
+    padding: 30px 40px;
+    color: #ffffff;
+}
+
+.sec4 button{
+    background: white;
+    color: tomato;
+    padding: 10px 25px;
+}
+/* section four ends here */
+/* footer section starts here */
+footer{
+    background: #000000;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 40px 50px;
+    
+}
+/* footer section ends here */
