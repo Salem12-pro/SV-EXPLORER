@@ -5,6 +5,50 @@
     height: autogit;
 }
 
+.desktopnavbar{
+    display: none;
+}
+
+/* mobile view starts here */
+/* .mobilenavbar{
+    display: flex;
+    flex-direction: column;
+    background: tomato;
+    padding: 20px 40px;
+}
+
+.exdiv1 h1{
+    color: white;
+}
+.exdiv2 ul{
+    flex-direction: column;
+    padding: 0;
+}
+
+li{
+    margin: 5px 0;
+} */
+
+.mobilenavbar{
+    display: flex;
+    flex-direction: column;
+    background: tomato;
+    padding: 20px;
+}
+ 
+.exdiv1 h1{
+    color: white;
+}
+
+.exdiv2 ul{
+    flex-direction: column;
+    padding: 0;
+}
+
+li{
+    margin: 5px 0;
+}
+/* mobile view ends here */
 .water{
     height: 70px;
     width:300px;

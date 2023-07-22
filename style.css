@@ -18,6 +18,10 @@ button:hover{
 }
 
 nav {
+  
+}
+
+.desktopnavbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,6 +30,10 @@ nav {
   color: white;
   width: 100%;
   position: fixed;
+}
+
+.mobilenavbar{
+  display: none;
 }
 
 ul {
