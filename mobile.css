@@ -1,0 +1,43 @@
+@media screen and (max-width:900px) {
+
+.hero{
+    padding-left: 50px;
+}
+
+.water{
+    height: 70px;
+    width:300px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.exleftdiv{
+display: none;
+}
+
+.exrighhtdiv{
+    padding-right: 0px;
+}
+
+.container{
+    font-size: 2px;
+    display: flex;
+        flex-direction: column;
+        height: auto;
+
+}
+.row1{
+    width: 100%;
+}
+
+    /* FOOOTER SECTION STARTS HERE */
+    footer {
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* FOOOTER SECTION ENDS HERE */
+}
