@@ -11,6 +11,41 @@ button:hover{
 
 .exdiv1 {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.hamburger{
+  position: relative;
+  background: white;
+  width: 40px;
+  height: 7px;
+}
+
+.hamburger::before{
+  background: white;
+  width: 40px;
+  height: 7px;
+  position: absolute;
+  content: "";
+  transform: translateY(-10px);
+}
+
+.hamburger::after{
+  background: white;
+  width: 40px;
+  height: 7px;
+  position: absolute;
+  content: "";
+  transform: translateY(10px);
 }
 
 .exdiv2 {
@@ -62,18 +97,19 @@ li {
 }
 
 .exrightdiv {
-  width: 50%;
-  padding-right: 300px;
+  width: 100%;
+  padding: 30px;
 }
 
-h5 {
+.exrightdiv p {
   color: white;
-  font-size: 20px;
+  font-size: 13.5px;
+  line-height: 2;
 }
 
 .ex {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 button {
