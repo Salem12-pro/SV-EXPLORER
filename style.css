@@ -47,9 +47,26 @@ button:hover{
   content: "";
   transform: translateY(10px);
 }
+.showburger .hamburger{
+  background:transparent;
+}
+
+.showburger .hamburger::before{
+  background: white;
+  transform: rotate(45deg);
+}
+
+.showburger .hamburger::after{
+  background: white;
+  transform: rotate(-45deg);
+}
 
 .exdiv2 {
   display: flex;
+}
+
+.show-exdiv2{
+  display: block;
 }
 
 nav {

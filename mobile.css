@@ -19,17 +19,30 @@ body{
     display: flex;
     flex-direction: column;
     background: tomato;
-    padding: 20px;
+    padding: 10px 20px;
+    height: auto;
 }
  
 .exdiv1 h1{
     color: white;
 }
 
+.exdiv2{
+    /* transform: translateY(-170%); */
+    /* position: fixed; */
+    transition: all 0.9s ease;
+}
+
+.show-exdiv2{
+transform: translateY(0);
+}
+
 .exdiv2 ul{
     flex-direction: column;
     padding: 0;
 }
+
+
 
 li{
     margin: 5px 0;
