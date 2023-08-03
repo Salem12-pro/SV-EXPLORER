@@ -11,7 +11,8 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 20;
+  /* position: fixed; */
+  /* background: tomato; */
 }
 
 .menu {
@@ -93,6 +94,7 @@ button:hover {
 
 .mobilenavbar {
   display: none;
+  /* position:fixed; */
 }
 
 ul {
