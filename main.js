@@ -1,10 +1,10 @@
 var menudiv = document.querySelector(".menu");
-var mobilelinks = document.querySelector(".mobile_header-link")
+var mobilelinks = document.querySelector(".mobile_link-holder")
 
 
 
 function dosomething() {
     menudiv.classList.toggle("showburger")
-    mobilelinks.classList.toggle("show-exdiv2")
+    mobilelinks.classList.toggle("showlinks")
 
 }
